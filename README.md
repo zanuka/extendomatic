@@ -25,7 +25,7 @@ To build the extension:
     - Brave: `brave://extensions`
 4. Enable "Developer mode" in the top-right corner
 5. Click "Load unpacked" and select the `dist` directory from your project
-6. The extension should now appear in your browser toolbar
+6. After pinning it, the extension should now appear in your browser toolbar
 
 **Note:** After making changes, run `bun run build` again and click the refresh icon on the extension card in your browser's extension page.
 
