@@ -2,9 +2,12 @@
 
 A simple Chrome Extension starter project that uses Vue 3 + TypeScript + Vite + Bun
 
-![Preview](./src/assets/preview.png)
-
 ## Development
+
+Install dependencies:
+
+`bun install`
+
 To start the development server:
 
 `bun run dev`
@@ -35,3 +38,8 @@ To build the extension:
 - typescript ~5.6.2
 - vite ^6.0.1
 - vue-tsc ^2.1.10
+
+## Great Success
+If great success achieved, you should see this:
+
+![Preview](./src/assets/preview.png)
