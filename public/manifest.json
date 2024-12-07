@@ -3,7 +3,7 @@
   "manifest_version": 3,
   "version": "0.1.0",
   "description": "chrome extension template",
-  "permissions": ["scripting"],
+  "permissions": ["scripting", "tabs"],
   "host_permissions": ["http://*/*", "https://*/*"],
   "action": {
     "default_popup": "index.html"

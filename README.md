@@ -40,6 +40,9 @@ To build the extension:
 - vue-tsc ^2.1.10
 
 ## Great Success
-If great success achieved, you should see this:
+If everything has been a success, you should see this after pinning the new extension:
 
-![Preview](./src/assets/preview.png)
+![Preview A](./src/assets/preview-a.png)
+
+you can now set a custom background color
+![Preview B](./src/assets/preview-b.png)
