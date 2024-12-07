@@ -44,5 +44,6 @@ If everything has been a success, you should see this after pinning the new exte
 
 ![Preview A](./src/assets/preview-a.png)
 
+### Most Excellent
 you can now set a custom background color
 ![Preview B](./src/assets/preview-b.png)
