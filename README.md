@@ -6,7 +6,9 @@ A simple Chrome Extension starter project that uses Vue 3 + TypeScript + Vite + 
 
 ### Installing Bun
 
-Bun is a fast all-in-one JavaScript runtime like Node.js, but with a focus on performance and developer experience. To install Bun, you can use the following command:
+Bun is a fast all-in-one JavaScript runtime like Node.js, but with a focus on performance and developer experience. You can also just use npm or pnpm, whatever works for you. 
+
+To install Bun, you can use the following command:
 
 ```bash
 curl -fsSL https://bun.sh/install | bash
@@ -67,17 +69,22 @@ This will generate the following icons in the `public/assets` directory:
 - vue ^3.5.13
 
 ## Dev Dependencies
-- @vitejs/plugin-vue ^5.2.1
-- typescript ~5.6.2
-- vite ^6.0.1
-- vue-tsc ^2.1.10
 
-## Great Success
+- **@types/chrome**: Provides TypeScript type definitions for the Chrome extension APIs, enabling better type checking and IntelliSense in your development environment.
+- **@vitejs/plugin-vue**: A Vite plugin that provides support for Vue 3 single-file components, allowing you to use Vue's template syntax and features.
+- **typescript**: A language for application-scale JavaScript, providing static type definitions to improve code quality and maintainability.
+- **vite**: A build tool that provides a fast development server and optimized build process for modern web projects.
+- **vue-tsc**: A TypeScript compiler for Vue single-file components, ensuring type safety and compatibility with TypeScript in your Vue project.
+
+## UI Testing
 You should see this after pinning the new extension:
 
 ![Preview A](./src/assets/preview-a.png)
 
-## Most Excellent
-You can now set a custom background color:
+## Basic Functionality
+Through some basic DOM manipulation, you can now set a custom background color using a stock color picker input. 
 
 ![Preview B](./src/assets/preview-b.png)
+
+
+starter created by [zanuka](https://github.com/zanuka) :: December 2024

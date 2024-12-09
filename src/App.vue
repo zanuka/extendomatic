@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
+import BasePanel from "./components/BasePanel.vue";
 </script>
 
 <template>
@@ -11,7 +11,7 @@ import HelloWorld from "./components/HelloWorld.vue";
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Extendo Matic" />
+  <BasePanel msg="Extendo Matic" />
 </template>
 
 <style scoped>

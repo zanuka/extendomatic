@@ -52,7 +52,9 @@ async function changeBackground() {
   </div>
 
   <div class="card">
-    <button type="button" @click="changeBackground">Neener</button>
+    <button type="button" @click="changeBackground">
+      Change Background Color
+    </button>
   </div>
 </template>
 
