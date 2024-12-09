@@ -1,6 +1,6 @@
 # ExtendoMatic
 
-A simple Chrome Extension starter project that uses Vue 3 + TypeScript + Vite + Bun
+A simple Chrome Extension starter project that uses Vue 3 + TypeScript + Vite + Bun + Icon Generation
 
 ## Prerequistes
 
