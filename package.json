@@ -1,7 +1,12 @@
 {
   "name": "extendomatic",
-  "private": true,
-  "version": "0.0.0",
+  "author": "Your Name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zanuka/extendomatic"
+  },
+  "license": "MIT",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

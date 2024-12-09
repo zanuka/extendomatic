@@ -10,7 +10,7 @@ try {
   // Directory already exists, that's fine
 }
 
-async function generateIcon(size, backgroundColor = "#39FF14") {
+async function generateIcon(size, backgroundColor = "#FF69B4") {
   const svg = `
         <svg width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg">
             <rect width="${size}" height="${size}" fill="${backgroundColor}"/>
@@ -23,7 +23,7 @@ async function generateIcon(size, backgroundColor = "#39FF14") {
                 fill="black" 
                 text-anchor="middle" 
                 dominant-baseline="middle"
-            >EX</text>
+            >LD</text>
         </svg>
     `;
 
@@ -36,7 +36,7 @@ async function generateAllIcons() {
 
   for (const size of sizes) {
     const buffer = await generateIcon(size);
-    const filepath = join(assetsDir, `ex-icon-${size}.png`);
+    const filepath = join(assetsDir, `icon-${size}.png`);
     await sharp(buffer).toFile(filepath);
     console.log(`Generated icon: ${filepath}`);
   }

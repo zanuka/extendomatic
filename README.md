@@ -2,6 +2,26 @@
 
 A simple Chrome Extension starter project that uses Vue 3 + TypeScript + Vite + Bun
 
+## Prerequistes
+
+### Installing Bun
+
+Bun is a fast all-in-one JavaScript runtime like Node.js, but with a focus on performance and developer experience. To install Bun, you can use the following command:
+
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
+
+This command will download and install Bun on your system. Make sure to follow any additional instructions provided by the installer to add Bun to your system's PATH.
+
+### Why Use Bun?
+
+- **Performance**: Bun is designed to be fast, with a focus on speed for both startup and runtime performance.
+- **Built-in Tools**: Bun includes a bundler, transpiler, and package manager, reducing the need for additional tools.
+- **Compatibility**: Bun aims to be compatible with Node.js, making it easier to transition existing projects.
+- **Developer Experience**: With features like hot module reloading and a fast development server, Bun enhances the development workflow.
+
+
 ## Development
 
 Install dependencies:
@@ -15,6 +35,19 @@ To start the development server:
 To build the extension:
 
 `bun run build`
+
+## Icon Generation
+
+To generate icons for the extension, run the following command:
+
+`bun scripts/generate-icons.js`
+
+This will generate the following icons in the `public/assets` directory:
+- `icon-16.png`
+- `icon-24.png`
+- `icon-32.png`
+- `icon-48.png`
+- `icon-128.png`
 
 ## Loading the Extension
 1. Build the project using `bun run build`
